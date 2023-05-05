@@ -20,7 +20,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Hamziee', // Usually your GitHub org/user name.
   projectName: 'ReflexOSWeb', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'ReflexOS',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'ReflexOS Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -79,7 +78,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Hamziee/ReflexOS',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,16 +100,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://github.com/Hamziee/ReflexOS',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Source-code: Github',
+                href: 'https://github.com/Hamziee/ReflexOS',
+              },
+              {
+                label: 'ReflexOS Maintainer: Hamziee Github',
+                href: 'https://github.com/Hamziee/',
               },
             ],
           },
@@ -123,12 +122,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Hamziee/ReflexOS',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ReflexOS | Project by: Hamziee & HEO Systems. Inc. ReflexOS is not affiliated with Microsoft.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/privacy.svg').default,
     description: (
       <>
-        Microsoft's Windows operating system is infamous for its privacy-intrusive behaviour towards consumers, which is why ReflexOS takes the privacy aspect into serious account. A plethora of telemetry backdoors have been terminated including, but is not limited to: UWP/AppX Apps, Windows Update and Cortana. Data collection and reporting increase the system load, and as a bonus, that too is severely reduced, hereby promoting performance.
+        Microsoft's Windows operating system is infamous for its privacy-intrusive behaviour towards consumers, which is why ReflexOS takes the privacy aspect into serious account. A plethora of telemetry backdoors have been terminated including, but is not limited to: UWP/AppX Apps, Cortana, Data collection and reporting increase the system load.
       </>
     ),
   },

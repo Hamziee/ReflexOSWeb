@@ -22,7 +22,7 @@ For Windows 10, we recommend using LTSC edition. This is a long term support ver
 
 ## Video Tutorial
 
-<iframe width="930" height="523" src="https://www.youtube.com/embed/GoO36Tj5TGE" title="ReflexOS — Installation Guide &amp; Overview (Performant Windows!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Coming soon...
 
 ## Download an ISO
 
@@ -35,14 +35,7 @@ The following bootable USB creators that we have written about need an ISO file:
 
 * Windows 10 LTSC Direct Download (LTSC Edition) Recommended!
 
-    1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
-    2. Click the ``Accept`` button to agree to the Microsoft license terms.
-    3. Tick ``Create installation media (USB flash drive, DVD, or ISO file) for another PC``, click ``Next``, and choose:
-        * Language: Desired language
-        * Edition: Windows 10 LTSC
-        * Architecture: 64-bit (x64)
-    4. Choose ``ISO file`` option and choose the download location.
-    5. After the ISO completed downloading, click ``Finish`` to end the installation.
+    1. Download the [Windows 10 LTSC](https://pixeldrain.com/u/6y73DJZ2) directly.
 
 * Windows Media Creation Tool (Default Edition)
 
@@ -120,11 +113,27 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
 
 ## Install ReflexOS
 
-1. Place the ``ReflexOS 10`` folder from the USB Stick to the C:\ Drive.
-2. Run ``Disable Drivers Installation in Windows Update.reg`` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
-3. soon...
+1. Place the ``ReflexOS 10 [VERSION]`` folder from the USB Stick to the C:\ Drive. (DOING THIS WRONG WILL BRAKE REFLEXOS)
+2. Open Powershell as Administrator and open Turn on scripts.txt Copy the command and past it in Powershell (right click in the Powershell Windows). And press to enter to run it.
+3. Run ``1. Run me and reboot and turn on internet.reg`` to prevent Windows from automatically installing drivers via Windows Update, and restart your computer.
+4. Connect to the internet and right click on ``2. Run me and reboot.ps1`` and click Run with Powershell. When it loads, press 1. When it is activated close it.
+5. Go back to Powershell and press any key to reboot.
+6. Right click on ``3. Run me and reboot.ps1`` and click Run with Powershell.
+7. When it is done, it will asks to reboot. Press Yes/Okay.
+8. Right click on ``4. Run me and reboot.ps1`` and click Run with Powershell.
+9. When it is done, go back to Powershell and press any key to reboot.
+10. Right click on ``5. Run me and reboot.ps1`` and click Run with Powershell.
+11. When it is done, go back to Powershell and press any key to reboot.
+12. Right click on ``6. Run me and reboot.ps1`` and click Run with Powershell.
+13. When it is done, go back to Powershell and press any key to reboot.
+14. Right click on ``7. Run me and reboot.ps1`` and click Run with Powershell.
+15. When it asks to install Chocolately enter Y and press enter.
+16. When a menu opens click on Tweaks. Click on Import, and go to the C:\ drive. Then go to the ReflexOS folder and open the Tweaks folder. There is one for Laptop and Desktop, open it. You can change the Tweak settings to your liking and click on Run Tweaks.
+17. When it is done, click on Updates. And click on Security (recommended) setting.
+18. Close the menu,  go back to Powershell and press any key to reboot.
 
-After a few reboots, your system will be optimized and have less junk on it, thanks to ReflexOS, you will enjoy more privacy, and better performance.
+Your system has been optimized and has less junk on it, thanks to ReflexOS, you will enjoy more privacy, and better performance.
+Have fun, and thanks for using ReflexOS!
 
 ### Troubleshooting
 

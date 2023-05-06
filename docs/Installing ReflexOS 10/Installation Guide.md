@@ -79,29 +79,27 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
 :::
 
 :::note Ventoy
-
-    1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
-    2. Plug in your USB Stick and open ``Ventoy2Disk.exe``.
-    2. Disable ``Secure Boot Support`` in the ``Option`` menu, if you have it disabled in your BIOS and you use ``UEFI``.
-    3. Then in the same tab, configure ``Partition Style`` depending on the BIOS Mode:
-        - If you are using ``UEFI``, select ``GPT``.
-        - If you are using ``Legacy``, select ``MBR``.
-    5. Click ``Install`` and then click OK in the two warnings.
-    6. Extract ``ReflexOS [version].zip``, to the root directory of your USB.
-    7. Move the iso onto your USB Stick.
+1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
+2. Plug in your USB Stick and open ``Ventoy2Disk.exe``.
+2. Disable ``Secure Boot Support`` in the ``Option`` menu, if you have it disabled in your BIOS and you use ``UEFI``.
+3. Then in the same tab, configure ``Partition Style`` depending on the BIOS Mode:
+    - If you are using ``UEFI``, select ``GPT``.
+    - If you are using ``Legacy``, select ``MBR``.
+5. Click ``Install`` and then click OK in the two warnings.
+6. Extract ``ReflexOS [version].zip``, to the root directory of your USB.
+7. Move the iso onto your USB Stick.
 :::
 
 :::note Rufus
-
-    1. Download and open [Rufus](https://github.com/pbatard/rufus).
-    2. Plug in your USB Stick.
-    3. Click the ``SELECT`` button and pick your ISO file.
-    4. Configure ``Partition scheme``
-        - If you are using ``UEFI``, select ``GPT``.
-        - If you are using ``Legacy``, select``MBR``.
-    4. Click ``START`` and in the ``Windows User Experience`` wizard, and then click ``OK``.
-    5. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
-    6. Extract ``ReflexOS 10 [version].zip``, to the root directory of your USB.
+1. Download and open [Rufus](https://github.com/pbatard/rufus).
+2. Plug in your USB Stick.
+3. Click the ``SELECT`` button and pick your ISO file.
+4. Configure ``Partition scheme``
+    - If you are using ``UEFI``, select ``GPT``.
+    - If you are using ``Legacy``, select``MBR``.
+4. Click ``START`` and in the ``Windows User Experience`` wizard, and then click ``OK``.
+5. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
+6. Extract ``ReflexOS 10 [version].zip``, to the root directory of your USB.
 :::
 
 ## Booting into your USB

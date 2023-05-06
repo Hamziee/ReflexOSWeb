@@ -8,12 +8,16 @@
 * [ReflexOS 10 Setup Files](https://github.com/Hamziee/ReflexOS/releases)
 * x64/64-bit CPU (x86 or 32-bit is not supported)
 
-:::caution "ReflexOS is not pre-activated"
+:::caution ReflexOS is not pre-activated
 ReflexOS is **not** a pre-activated version of Windows. If you want to run ReflexOS legally, you need to have your own Windows license. Before you buy a Windows (Pro OR Home) license, make sure that the seller is trusted and that the key is legitimate, no matter where you buy it.
 :::
 
-:::tip "Download ethernet drivers"
+:::tip Download ethernet drivers
 Some network adapters do not have drivers that come with Windows. This means that if you are using Ethernet, you might not be able to connect to the internet after installing. We recommend you to download the drivers for your ethernet adapter ahead of time, and put them on your bootable Windows USB.
+:::
+
+:::tip
+For Windows 10, we recommend using LTSC edition. This is a long term support version of Windows 10 and does not contain those bloatware feature updates.
 :::
 
 ## Video Tutorial
@@ -26,21 +30,21 @@ Depending on the bootable USB creator you want to use, you may need to get your 
 
 The following bootable USB creators that we have written about need an ISO file:
 
-* Ventoy
-* Rufus
+### Ventoy
+### Rufus
 
-* "Windows 10 LTSC Direct Download"
+* Windows 10 LTSC Direct Download (LTSC Edition) Recommended!
 
     1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
     2. Click the ``Accept`` button to agree to the Microsoft license terms.
     3. Tick ``Create installation media (USB flash drive, DVD, or ISO file) for another PC``, click ``Next``, and choose:
         * Language: Desired language
-        * Edition: Windows 10
+        * Edition: Windows 10 LTSC
         * Architecture: 64-bit (x64)
     4. Choose ``ISO file`` option and choose the download location.
     5. After the ISO completed downloading, click ``Finish`` to end the installation.
 
-* "Windows Media Creation Tool"
+* Windows Media Creation Tool (Default Edition)
 
     1. Download the [Windows Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=691209) and open it.
     2. Click the ``Accept`` button to agree to the Microsoft license terms.
@@ -62,19 +66,19 @@ $BootMode = If((bcdedit | Select-String "path.*efi") -eq $null){"Legacy"}else{"U
 
 You will either get ``UEFI`` or ``Legacy``. ``UEFI`` is a newer BIOS mode that is recommended for new machines, and it supports the ``GPT`` partition style. ``Legacy`` is an older BIOS mode, and it supports the ``MBR`` partition style.
 
-!!!info 
+:::info 
 It is not recommended to run UEFI with MBR or BIOS with GPT as it may cause compatibility and stability issues.
 If you are using a mixed combination, you may want to [convert your partition style](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/change-an-mbr-disk-into-a-gpt-disk) during the installation.
-!!!
+:::
 
 ## Preparing your USB
 
-!!!danger 
+:::danger 
 "Your USB will be wiped"
 Make sure to back up any files on the USB drive that you may want to keep, because the bootable USB creator will delete them. You cannot get around this, copy any files you want to keep to an external drive or the cloud.
-!!!
+:::
 
-* Ventoy
+::: Ventoy
 
     1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
     2. Plug in your USB Stick and open ``Ventoy2Disk.exe``.
@@ -85,6 +89,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
     5. Click ``Install`` and then click OK in the two warnings.
     6. Extract ``ReflexOS [version].zip``, to the root directory of your USB.
     7. Move the iso onto your USB Stick.
+:::
 
 * Rufus
 
@@ -122,7 +127,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
 
 After a few reboots, your system will be optimized and have less junk on it, thanks to ReflexOS, you will enjoy more privacy, and better performance.
 
-### :material-bug-outline: Troubleshooting
+### Troubleshooting
 
 :::tip
 If you are using Wi-Fi and cannot connect to the internet, temporarily plug an ethernet cable into your computer to download your drivers. You can also download the right Wi-Fi or ethernet drivers with an external hard drive or USB using something else.

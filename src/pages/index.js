@@ -20,6 +20,8 @@ function HomepageHeader() {
             to="/docs/ReflexOS%2010/Installation%20Guide">
             Reflex 10 Installation
           </Link>
+        </div>
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/ReflexOS%2011/Installation%20Guide">

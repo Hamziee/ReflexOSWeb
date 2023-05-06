@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://github.com/Hamziee/ReflexOS',
+                href: 'https://discord.gg/mdx2tKxSeV',
               },
               {
                 label: 'Source-code: Github',

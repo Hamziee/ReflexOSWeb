@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'ReflexOS',
+  tagline: 'Performance, with security',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ReflexOS | Project by: Hamziee & HEO Systems. Inc. ReflexOS is not affiliated with Microsoft.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ReflexOS | Project by: Hamziee. Inc. ReflexOS is not affiliated with Microsoft.`,
       },
       prism: {
         theme: lightCodeTheme,

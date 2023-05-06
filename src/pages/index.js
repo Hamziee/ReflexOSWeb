@@ -20,12 +20,6 @@ function HomepageHeader() {
             to="/docs/ReflexOS%2010/Installation%20Guide">
             Reflex 10 Installation
           </Link>
-        </div>
-      </div>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/ReflexOS%2011/Installation%20Guide">

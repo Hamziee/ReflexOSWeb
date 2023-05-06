@@ -61,6 +61,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -130,7 +135,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} ReflexOS | Project by: Hamziee. ReflexOS is not affiliated with Microsoft.`,
       },
       prism: {
-        theme: darkCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),

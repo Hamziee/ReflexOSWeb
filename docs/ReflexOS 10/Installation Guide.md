@@ -102,7 +102,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
 2. Boot into your USB using Boot Menu/BIOS.
     - If you are using Ventoy, choose the ISO file that you moved to the USB Stick in the program menu.
 4. Proceed with the Windows installation as usual.
-    - If asked, choose your desired edition (Professional is recommended).
+    - If asked, choose your desired edition (Professional is recommended or Enterprise using LTSC).
 5. Finish installing Windows in the OOBE, and follow the video below:
 
     <iframe src="https://streamable.com/e/21wdvv?loop=0" width="560" height="420" frameborder="0" allowfullscreen></iframe>

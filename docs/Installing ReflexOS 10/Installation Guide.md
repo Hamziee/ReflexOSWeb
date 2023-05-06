@@ -78,7 +78,7 @@ If you are using a mixed combination, you may want to [convert your partition st
 Make sure to back up any files on the USB drive that you may want to keep, because the bootable USB creator will delete them. You cannot get around this, copy any files you want to keep to an external drive or the cloud.
 :::
 
-::: Ventoy
+:::Ventoy
 
     1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
     2. Plug in your USB Stick and open ``Ventoy2Disk.exe``.
@@ -91,7 +91,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
     7. Move the iso onto your USB Stick.
 :::
 
-* Rufus
+:::Rufus
 
     1. Download and open [Rufus](https://github.com/pbatard/rufus).
     2. Plug in your USB Stick.
@@ -102,6 +102,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
     4. Click ``START`` and in the ``Windows User Experience`` wizard, and then click ``OK``.
     5. Press ``OK`` again and your USB will be erased and turned into a bootable USB.
     6. Extract ``ReflexOS 10 [version].zip``, to the root directory of your USB.
+:::
 
 ## Booting into your USB
 

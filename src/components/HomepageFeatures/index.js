@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Privacy',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Microsoft's Windows operating system is infamous for its privacy-intrusive behaviour towards consumers, which is why ReflexOS takes the privacy aspect into serious account. A plethora of telemetry backdoors have been terminated including, but is not limited to: UWP/AppX Apps, Windows Update and Cortana. Data collection and reporting increase the system load, and as a bonus, that too is severely reduced, hereby promoting performance.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Security',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Windows Defender and Windows Update are removed from many different custom operating systems. We know that the majority of gamers are not particularly tech savvy and cannot manually update or maintain their computer secure, which can be a major security risk. Therefore, we remain to use those features to keep you safe.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Performance',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Windows is notoriously known for its less-than-ideal performance, especially when compared to its predecessors. ReflexOS attempts to speed up the system, by eliminating redundant tasks and services running in the background, without sacrificing on stability. Better yet, framerate stability is greatly improved, meaning your FPS is less prone to fluctuation.
       </>
     ),
   },

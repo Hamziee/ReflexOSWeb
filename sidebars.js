@@ -37,7 +37,7 @@ module.exports = {
     Guides: [
       'creating-pages',
       {
-        Docs: ['intro', 'ReflexOS 10', 'ReflexOS 11'],
+        Docs: ['intro', 'ReflexOS 10/Installation Guide', 'ReflexOS 10/After Windows Updates', 'ReflexOS 10/Update ReflexOS', 'ReflexOS 11/Installation Guide', 'ReflexOS 11/After Windows Updates', 'ReflexOS 11/Update ReflexOS'],
       },
     ],
   },

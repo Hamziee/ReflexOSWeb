@@ -30,15 +30,4 @@ const sidebars = {
    */
 };
 
-/*module.exports = sidebars;*/
-
-module.exports = {
-  docs: {
-    Guides: [
-      'creating-pages',
-      {
-        Docs: ['intro', 'ReflexOS 10/Installation Guide', 'ReflexOS 10/After Windows Updates', 'ReflexOS 10/Update ReflexOS', 'ReflexOS 11/Installation Guide', 'ReflexOS 11/After Windows Updates', 'ReflexOS 11/Update ReflexOS'],
-      },
-    ],
-  },
-};
+module.exports = sidebars;

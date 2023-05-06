@@ -130,7 +130,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} ReflexOS | Project by: Hamziee. ReflexOS is not affiliated with Microsoft.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),

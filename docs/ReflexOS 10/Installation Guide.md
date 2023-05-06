@@ -30,8 +30,8 @@ Depending on the bootable USB creator you want to use, you may need to get your 
 
 The following bootable USB creators that we have written about need an ISO file:
 
-### Ventoy
-### Rufus
+#### [Ventoy](https://www.ventoy.net/en/index.html)
+#### [Rufus](https://rufus.ie/en/)
 
 * Windows 10 LTSC Direct Download (LTSC Edition) Recommended!
 
@@ -72,7 +72,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
 :::
 
 :::note Ventoy
-1. Download and unzip [Ventoy](https://github.com/ventoy/Ventoy).
+1. Download and unzip [Ventoy](https://www.ventoy.net/en/download.html).
 2. Plug in your USB Stick and open ``Ventoy2Disk.exe``.
 2. Disable ``Secure Boot Support`` in the ``Option`` menu, if you have it disabled in your BIOS and you use ``UEFI``.
 3. Then in the same tab, configure ``Partition Style`` depending on the BIOS Mode:
@@ -84,7 +84,7 @@ Make sure to back up any files on the USB drive that you may want to keep, becau
 :::
 
 :::note Rufus
-1. Download and open [Rufus](https://github.com/pbatard/rufus).
+1. Download and open [Rufus](https://rufus.ie/en/).
 2. Plug in your USB Stick.
 3. Click the ``SELECT`` button and pick your ISO file.
 4. Configure ``Partition scheme``

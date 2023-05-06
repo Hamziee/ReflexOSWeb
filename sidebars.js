@@ -30,4 +30,15 @@ const sidebars = {
    */
 };
 
-module.exports = sidebars;
+/*module.exports = sidebars;*/
+
+module.exports = {
+  docs: {
+    Guides: [
+      'creating-pages',
+      {
+        Docs: ['intro', 'ReflexOS 10', 'ReflexOS 11'],
+      },
+    ],
+  },
+};
